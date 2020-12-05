@@ -1,0 +1,111 @@
+.App {
+  text-align: left;
+  min-width: 1015px;
+  font-family: 'JetBrains Mono', monospace;
+  
+
+}
+
+.blabelname{
+  text-align: left;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13pt;
+  color: #00b39b;
+}
+
+.formgridbutton{
+  background-color: #00b39b;
+  color: azure;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 17pt;
+  font-weight: 900;
+  border-bottom: 5px solid rgb(0, 88, 88);
+}
+
+.formgridbutton:hover{
+  background-color: azure;
+  color: #00b39b;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 17pt;
+  font-weight: 900;
+  border-bottom: 5px solid #00b39b;
+}
+
+.controlname{
+  background-color: #affff4;
+  border-bottom: 5px solid rgb(0, 88, 88);
+}
+
+.navnav{
+  min-width: 1015px;
+  font-family: 'Roboto', sans-serif;
+}
+.Applogogroup{
+  height: 4vmin;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin: 100px 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /*max-width: 1015px;*/
+  margin: 0, auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+ .mr-auto{
+  display: flex;
+  justify-content: flex-end;
+
+  margin-left: auto;
+  margin-right: 0px !important;
+}
+
+.mr-auto.link{
+  
+  color: #ababab;
+
+  
+}
+
+
+
+#NavDropdown{
+  padding-top: 10px;
+  position: absolute;
+  min-width: 220px;
+  margin-left: -100px;
+}
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
